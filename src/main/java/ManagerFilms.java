@@ -11,7 +11,7 @@ public class ManagerFilms {
     }
 
     public void addFilm(String film) {
-        String[] tmp = new String[films.length +1];
+        String[] tmp = new String[films.length + 1];
         for (int i = 0; i < films.length; i++) {
             tmp[i] = films[i];
         }
